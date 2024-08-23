@@ -1,0 +1,51 @@
+{
+  "name": "v2vwebmobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-native-community/netinfo": "^11.3.1",
+    "@react-native-masked-view/masked-view": "0.3.0",
+    "@react-native-picker/picker": "2.6.1",
+    "@react-navigation/drawer": "^6.6.4",
+    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/stack": "^6.3.18",
+    "axios": "^1.5.1",
+    "buffer": "^6.0.3",
+    "expo": "^50.0.15",
+    "expo-build-properties": "~0.11.1",
+    "expo-document-picker": "~11.10.1",
+    "expo-location": "~16.5.5",
+    "expo-modules-core": "^1.11.13",
+    "expo-web-browser": "~12.8.2",
+    "jwt-decode": "^4.0.0",
+    "native-base": "^3.4.28",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-config": "^1.5.1",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-image-picker": "^7.0.0",
+    "react-native-keychain": "^8.1.2",
+    "react-native-permissions": "^3.9.2",
+    "react-native-picker-select": "^8.1.0",
+    "react-native-reanimated": "~3.6.2",
+    "react-native-root-toast": "^3.5.1",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-select-dropdown": "^3.4.0",
+    "react-native-webview": "^13.11.1",
+    "v2vwebmobile": "file:"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
